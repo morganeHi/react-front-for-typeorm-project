@@ -17,11 +17,17 @@
     margin: 0;
   }
   
-  .navbar-links a {
+  .navbar-links a,
+  .navbar-links button {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
+  }
+
+  .navbar-links button {
+    font-size: 15px;
+    margin-top: -4px;
   }
   
   .navbar-links a:hover {
